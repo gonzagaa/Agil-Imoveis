@@ -1,0 +1,107 @@
+
+.custom-shape-divider-top-1719898398 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1719898398 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 53px;
+}
+
+.custom-shape-divider-top-1719898398 .shape-fill {
+    fill: #f4f4f4;
+}
+
+#services {
+    position: relative;
+    padding-top: 12rem;
+}
+
+#services header h2 {
+    font-size: 3rem;
+    color: #f4f4f4;
+    font-weight: 300;
+
+    margin-bottom: 4rem;
+}
+
+#services .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+#services .cards .card {
+    background-color: #282829;
+    border-radius: 2rem 0 2rem 0;
+    padding: 2rem;
+
+    text-align: left;
+}
+
+#services .cards .card h3 {
+    font-size: 2rem;
+    color: #a5a5a5;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#services .cards .card p {
+    color: #969696;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+    margin-bottom: 2rem;
+}
+
+#services .cards .card a button {
+    background-color: #1c1c1d;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: #a5a5a5;
+}
+
+@media (min-width: 1080px) {
+    section#services .content header h2 {
+        font-size: 4rem;
+        margin-bottom: 7rem;
+    }
+
+    section#services .content .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    section#services .wrapper .content .cards .card {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+    }
+
+    section#services .content .cards .card h3 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    section#services .content .cards .card p {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+
+    section#services .content .cards .card a button {
+        font-size: 1.8rem;
+    }
+}

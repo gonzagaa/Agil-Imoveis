@@ -1,0 +1,50 @@
+#sobre {
+    background-color: #f4f4f4;
+}
+
+#sobre header {
+    margin-bottom: 4rem;
+}
+
+#sobre header h2 {
+    font-size: 3rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+#sobre header p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#sobre header p span {
+    font-weight: 600;
+}
+
+#sobre .image img {
+    width: 100%;
+}
+
+@media (min-width: 1080px) {
+    section#sobre .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 8rem;
+    }
+
+    section#sobre .content header {
+        margin-bottom: initial;
+        text-align: left;
+    }
+
+    section#sobre .content header h2 {
+        font-size: 4rem;
+    }
+
+    section#sobre .content header p {
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+}

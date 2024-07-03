@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ágil Imoveis</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="./assets/tracosDamatta.webp" type="image/x-icon">
+</head>
+<body>
+
+    <nav id="navigation" class="">
+
+        <div class="wrapper">
+
+            <a class="logo" href="#home">
+                <img src="./assets/agilimoveis logo.svg" alt="">
+            </a>
+            
+            <div class="menu">
+                <ul>
+                    <li><a onclick="closeMenu()" href="#home">Home</a></li>
+                    <li><a onclick="closeMenu()" href="#sobre">Sobre nós</a></li>
+                    <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+                    <li><a onclick="closeMenu()" href="#imoveis">Imóveis</a></li>
+                    <li><a onclick="closeMenu()" href="#contato">Contato</a></li>
+                    
+                </ul>
+
+                <a href="#home"><img class="logo" onclick="closeMenu()" src="./assets/logo DAMATTA escrita.svg" alt=""></a>
+             </div>
+
+            <button 
+            aria-expanded="false"
+            aria-label="Abrir menu"
+            onclick="openMenu()" 
+            class="open-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 20H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 12H30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 28L30 28" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> 
+            </button>
+            <button
+            aria-expanded="true"
+            aria-label="Fechar menu"
+            onclick="closeMenu()" 
+            class="close-menu">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+            </button>
+
+        </div>
+           
+    </nav>
+
+    <header id="home">
+        <div class="wrapper">
+            <div class="content">
+                <div class="text">
+
+                    <div class="text-content">
+                        <h1 data-aos="fade-up-left">Soluções imobiliárias com confiança, atenção e segurança.</h1>
+                        <p data-aos="fade-up-left">Você quer vender ou comprar um imóvel? De qualquer forma, <span>deixe esse trabalho conosco</span>.</p>
+                        <div data-aos="fade-up-left" class="buttons">
+                            <a href="#services"><button>Nossos serviços</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagebg">
+                    <img src="./assets/imagem bg agil 2.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="./assets/imagem principal agil imoveis.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom-1719855114">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <h2>Quem somos</h2>
+                    <p>a Agil Imóveis é uma imobiliária comprometida em proporcionar <span>serviços de alta qualidade e segurança</span> em todas as negociações. Nossa missão é oferecer soluções imobiliárias que inspirem <span>confiança e tranquilidade</span>. Atuamos como intermediários entre vendedores e compradores, tanto na <span>venda e compra</span> de fazendas quanto em hospedagem urbana, sempre com um <span>atendimento personalizado e eficiente</span>.</p>
+                </header>
+
+                <div class="image">
+                    <img src="./assets/sobrenos agil.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="custom-shape-divider-top-1719898398">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <h2>Nossos serviços</h2>
+                </header>
+        
+                <div class="cards">
+                    <div class="card">
+                        <h3>Compra e Venda</h3>
+                        <p>Conectamos vendedores a compradores, facilitando negociações de fazendas e propriedades urbanas.</p>
+                        <a href="#"><button>Saiba mais</button></a>
+                    </div>
+        
+                    <div class="card">
+                        <h3>Hospedagem</h3>
+                        <p>Soluções de hospedagem para quem busca conforto e praticidade nas cidades urbanas e rurais.</p>
+                        <a href="#"><button>Saiba mais</button></a>
+                    </div>
+        
+                    <div class="card">
+                        <h3>Consultoria Jurídica/Técnica</h3>
+                        <p>Garantia de segurança em todas as transações imobiliárias, tanto para quem compra quanto para quem vende.</p>
+                        <a href="#"><button>Saiba mais</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="imoveis">
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <h2>Imóveis Disponíveis</h2>
+                    <p>Encontre o imóvel dos seus sonhos com a Agil Imóveis. Navegue por nossa seleção de fazendas, propriedades rurais e opções de hospedagem urbana. Utilizamos nossa expertise para conectar vendedores a compradores, garantindo que você encontre exatamente o que procura ou que sua propriedade seja vendida rapidamente.</p>
+                </header>
+
+                <div class="cards">
+                    <div class="card">
+                        <img src="./assets/Fachada-8-qo9ti5hyyuhv37h58uwh40jlu55z5ogsbg8kci17cu.jpg.webp" alt="">
+
+                        <div class="text">
+                            <img src="./assets/logo smallagil.svg" alt="">
+                            <h3>Goiânia - GO</h3>
+                            <p>Setor Universitário</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/Fachada-Now-Milao-qojgknzytgjkqwhx26i9hkg7wnaph3tj5jwpcqajy6.jpg.webp" alt="">
+
+                        <div class="text">
+                            <img src="./assets/logo smallagil.svg" alt="">
+                            <h3>Goiânia - GO</h3>
+                            <p>Setor Oeste</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/Fachada-Now-Reserva-das-Aguas-qojjx7stbjkfqje44serrnbekn4dnne8q7xi39jvy6.jpg.webp" alt="">
+
+                        <div class="text">
+                            <img src="./assets/logo smallagil.svg" alt="">
+                            <h3>Goiânia - GO</h3>
+                            <p>Setor União</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./assets/Fachada-Parque-Amazonia-qojgbnpnbm7nhfkynsbz3ca6ypp2pj24wyu6s9ndku.jpg.webp" alt="">
+
+                        <div class="text">
+                            <img src="./assets/logo smallagil.svg" alt="">
+                            <h3>Goiânia - GO</h3>
+                            <p>Setor Bueno</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="custom-shape-divider-top-1719941179">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div class="wrapper">
+            <div class="content">
+                <header>
+                    <h2>Fale conosco</h2>
+                </header>
+
+                <div class="text">
+                    <p>Estamos aqui para ajudar! Entre em contato conosco para mais informações sobre nossos serviços. Nossa equipe está pronta para oferecer o suporte que você precisa.</p>
+                    <a href="#"><button><ion-icon name="logo-whatsapp"></ion-icon> Entrar em contato</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div class="content">
+                <img class="logo" src="./assets/agilimoveis logo white.svg" alt="">
+
+                <div class="navigation">
+                    <h3>Navegação</h3>
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#sobre">Sobre nós</a></p>
+                    <p><a href="#services">Serviços</a></p>
+                    <p><a href="#imoveis">Imóveis</a></p>
+                    <p><a href="#contato">Contato</a></p>
+                </div>
+    
+                <div class="contato">
+                    <h3>Conecte-se conosco</h3>
+                    <p>email</p>
+                    <p><a target="_blank" href="tel:+55-19-99292-5730">numero</a></p>
+                </div>
+    
+                <div class="redes-sociais">
+                    <h3>Social</h3>
+                    <div class="icons">
+                        <a target="_blank" href="https://wa.link/kkw55n"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a target="_blank" href="https://www.instagram.com/lsbdigital/"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section id="author">
+        <div class="wrapper">
+            <div class="content">
+                <p>© Todos os direitos reservados - Ágil Imóveis</p>
+
+                <a target="_blank" href="https://instagram.com/gonzxgx">
+                    <p class="author">
+                        Desenvolvido por
+                        <img src="./assets/GustavoGonzaga Logo Small.svg" alt="">
+                        Gustavo Gonzaga
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 1500,
+            }
+        );
+      </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html> 

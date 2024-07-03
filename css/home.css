@@ -1,0 +1,219 @@
+
+
+/* HOME =================== */
+#home {
+    overflow: hidden;
+    min-height: 100vh;
+
+
+    position: relative;
+    z-index: 2;
+    background-image: url(../assets/imagem\ bg\ agil\ 2.jpg);
+    background-position-x: 50%;
+    background-position-y: 30%;
+}
+
+.custom-shape-divider-bottom-1719855114 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    
+}
+
+.custom-shape-divider-bottom-1719855114 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 87px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1719855114 .shape-fill {
+    fill: #f4f4f4;
+}
+
+
+#home .content .imagebg {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(.5);
+}
+
+#home .content .imagebg img {
+    width: 100%;
+}
+
+#home .content .image img {
+    width: 100%;
+}
+
+#home .content {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    gap: 5rem;
+}
+
+#home .content .text-content {
+    position: relative;
+    z-index: 5;
+    margin-left: 1rem;
+}
+
+#home .content img.logo {
+    width: 15rem;
+}
+
+#home .content h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 2.8rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#home .content h3 {
+    font-size: 1.6rem;
+    color: var(--paragraphy);
+    font-weight: 400;
+
+    margin-bottom: 3rem;
+}
+
+#home .content .text-content p {
+    font-size: 1.6rem;
+    color: #b4b4b4;
+    font-weight: 300;
+}
+
+#home .content .buttons {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+#home .content a button {
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    outline: 2px solid #ffffff5b;
+    color: var(--white);
+}
+
+@media (min-width: 1080px) {  
+    header#home {
+        background-image: none;
+    }
+
+    header#home .wrapper {
+      width: min(150rem, 100%);
+    }
+
+    header#home .content {
+        text-align: center;
+        align-items: center;
+
+        z-index: 2;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8rem;
+    }
+
+    header#home .content .text-content img.logo {
+        width: 35rem;
+    }
+
+    header#home .content .text-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header#home .content .text-content  {
+       text-align: left;
+       display: flex;
+       flex-direction: column;
+        align-items: start;
+    }
+
+    header#home .content .text-content h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        line-height: 1.2;
+    }
+
+    header#home .content .text-content p {
+        font-size: 2rem;
+        color: #b4b4b4;
+        font-weight: 300;
+    }
+
+    header#home .content .text-content p span {
+        color: #dedede;
+    }
+
+    header#home .content .buttons {
+        margin-top: 2rem;
+        flex-direction: row;
+    }
+
+    header#home .content .imagebg {
+        display: initial;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        object-fit: cover;
+        width: 100%;
+        height: 100vh;
+        filter: brightness(.3) blur(5px);
+   
+    }
+}
+
+@media (min-width: 1400px) {
+    header#home .content .text-content h1 {
+        font-size: 4.5rem;
+    }
+
+    header#home .content .text-content p {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    header#home .content .text-content h1 {
+        font-size: 5rem;
+    }
+
+    header#home .content .text-content p {
+        font-size: 2.5rem;
+    }
+}

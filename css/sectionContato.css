@@ -1,0 +1,88 @@
+#contato {
+    background-color: #dedddd;
+    position: relative;
+}
+
+.custom-shape-divider-top-1719941179 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1719941179 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 48px;
+}
+
+.custom-shape-divider-top-1719941179 .shape-fill {
+    fill: #f4f4f4;
+}
+
+#contato header h2 {
+    font-size: 3rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+#contato .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contato .text p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#contato .text p span {
+    font-weight: 600;
+}
+
+#contato .text a {
+    text-decoration: none;
+}
+
+#contato .text a button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    background: var(--gradient);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: #f4f4f4;
+    font-size: 1.8rem;
+    border: none;
+    font-weight: 500;
+
+    margin-top: 2rem;
+}
+
+#contato .text a button ion-icon {
+    color: var(--green);
+    background-color: #f4f4f4;
+    padding: .5rem;
+    border-radius: 50%;
+}
+
+@media (min-width: 1080px) {
+    section#contato .content header h2 {
+        font-size: 4rem;
+    }
+
+    section#contato .content .text p {
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+
+    section#contato .text a button {
+        margin-top: 4rem;
+    }
+}
