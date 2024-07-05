@@ -68,12 +68,32 @@
              -9px -9px 19px #ffffff62;
 }
 
+
 #imoveis .cards .card .text h3 {
     color: var(--gray);
 }
 
 #imoveis .cards .card .text p {
     font-weight: 300;
+}
+
+#imoveis .cards .card .text a button {
+    margin-top: 1rem;
+    border: none;
+    line-height: 0;
+    font-size: 2rem;
+    background: var(--gradient);
+    color: #fff;
+    border-radius: 50%;
+    padding: .8rem;
+
+    transition: all 300ms ease-in-out
+}
+
+#imoveis .cards .card .text a button:hover {
+    cursor: pointer;
+    filter: brightness(1.1);
+    transform: scale(1.05);
 }
 
 @media (min-width: 1080px) {

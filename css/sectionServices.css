@@ -49,6 +49,12 @@
     text-align: left;
 }
 
+#services .cards .card img {
+    margin-bottom: 2rem;
+    width: 5rem;
+    opacity: .7;
+}
+
 #services .cards .card h3 {
     font-size: 2rem;
     color: #a5a5a5;
@@ -70,6 +76,13 @@
     padding: 1rem 2rem;
     border-radius: 1rem;
     color: #a5a5a5;
+
+    transition: all 200ms ease-in-out;
+}
+
+#services .cards .card a button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
 }
 
 @media (min-width: 1080px) {

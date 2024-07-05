@@ -118,10 +118,16 @@
     padding: 1rem 2rem;
     font-size: 1.6rem;
 
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-    outline: 2px solid #ffffff5b;
-    color: var(--white);
+    background: var(--gradient);
+    color: var(--white); 
+    font-weight: 400;
+
+    transition: all 200ms ease-in-out;
+}
+
+#home .content a button:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
 }
 
 @media (min-width: 1080px) {  
@@ -180,8 +186,12 @@
     }
 
     header#home .content .buttons {
-        margin-top: 2rem;
+        margin-top: 3rem;
         flex-direction: row;
+    }
+
+    header#home .content .buttons button {
+        font-size: 1.8rem;
     }
 
     header#home .content .imagebg {
