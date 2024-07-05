@@ -6,6 +6,13 @@
     margin-bottom: 4rem;
 }
 
+#imoveis .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #imoveis header h2 {
     font-size: 3rem;
     color: var(--gray);
@@ -87,13 +94,54 @@
     border-radius: 50%;
     padding: .8rem;
 
-    transition: all 300ms ease-in-out
+    transition: all 300ms ease-in-out;
 }
 
 #imoveis .cards .card .text a button:hover {
     cursor: pointer;
     filter: brightness(1.1);
     transform: scale(1.05);
+}
+
+#imoveis a {
+    text-decoration: none;
+}
+
+#imoveis a button#vertudo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    background: var(--gradient);
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    color: #f4f4f4;
+    font-size: 1.8rem;
+    border: none;
+    font-weight: 500;
+
+    margin-top: 2rem;
+
+    transition: all 300ms ease-in-out;
+}
+
+#imoveis a button#vertudo ion-icon {
+    color: var(--green);
+    background-color: #f4f4f4;
+    padding: .5rem;
+    border-radius: 50%;
+
+    transition: all 300ms ease-in-out;
+}
+
+
+#imoveis a button#vertudo:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+#imoveis a button#vertudo:hover ion-icon {
+    transform: scale(1.1) translateX(5px);
 }
 
 @media (min-width: 1080px) {
@@ -114,5 +162,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 4rem;
+    }
+
+    section#imoveis a button#vertudo {
+        margin-top: 7rem;
     }
 }

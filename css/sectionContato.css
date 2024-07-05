@@ -63,6 +63,8 @@
     font-weight: 500;
 
     margin-top: 2rem;
+
+    transition: all 200ms ease-in-out;
 }
 
 #contato .text a button ion-icon {
@@ -70,6 +72,16 @@
     background-color: #f4f4f4;
     padding: .5rem;
     border-radius: 50%;
+
+    transition: all 200ms ease-in-out;
+}
+
+#contato .text a button:hover {
+    filter: brightness(1.1);
+}
+
+#contato .text a button:hover ion-icon {
+    transform: scale(1.1);
 }
 
 @media (min-width: 1080px) {
