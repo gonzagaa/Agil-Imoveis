@@ -74,11 +74,11 @@ nav .wrapper {
 }
 
 nav button path {
-  stroke: var(--orange);
+  stroke: var(--green);
 }
 
 nav path {
-  stroke: var(--orange);
+  stroke: var(--green);
 }
 
 .logo img {
@@ -103,7 +103,7 @@ nav.scroll {
 }
 
 nav#navigation.scroll path {
-  stroke: var(--orange);
+  stroke: var(--green);
 }
 
 
@@ -133,7 +133,7 @@ body.menu-expanded .menu {
   top: 0;
   left: 40%;
   
-  background: var(--gray);
+  background: var(--white);
 
   width: 60vw;
   height: max-content;
@@ -154,8 +154,8 @@ body.menu-expanded .menu {
 
   border-radius: 0 0 0 3rem;
 
-  border-left: 1px solid var(--orange);
-  border-bottom: 1px solid var(--orange);
+  border-left: 1px solid var(--green);
+  border-bottom: 1px solid var(--green);
 }
 
 .menu ul:nth-child(1) {
@@ -206,7 +206,7 @@ body.menu-expanded .menu img.logo {
 }
 
 .menu .button {
-  background-color: var(--orange);
+  background-color: var(--green);
   border-radius: 4rem;
 
   display: inline-block;
@@ -236,11 +236,11 @@ body.menu-expanded nav button {
 }
 
 body.menu-expanded button path {
-  stroke: var(--orange);
+  stroke: var(--green);
 }
 
 body.menu-expanded nav#navigation.scroll path {
-  stroke: var(--orange);
+  stroke: var(--green);
 }
 
 /* RESPONSIVE =================== */
