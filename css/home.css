@@ -192,7 +192,6 @@
 
     header#home .content .buttons {
         margin-top: 3rem;
-        flex-direction: row;
     }
 
     header#home .content .buttons button {

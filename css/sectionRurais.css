@@ -1,0 +1,83 @@
+#rurais {
+    background-color: #e7e7e7;
+}
+
+#rurais header {
+    margin-bottom: 4rem;
+}
+
+#rurais header h2 {
+    font-size: 3rem;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+#rurais header p {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+#rurais header p.dois {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#rurais .image img {
+    width: 100%;
+}
+
+#rurais .content a button {
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+
+    margin-top: 2rem;
+
+    background: var(--gradient);
+    color: var(--white); 
+    font-weight: 400;
+
+    transition: all 200ms ease-in-out;
+}
+
+#rurais .content a button:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+}
+
+@media (min-width: 1080px) {
+    section#rurais .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "A B";
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+    }
+
+    section#rurais .content header {
+        margin-bottom: initial;
+        text-align: left;
+        grid-area: B;
+    }
+
+    section#rurais .content header h2 {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    section#rurais .content header p {
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+
+    section#rurais .content header p.dois {
+        margin-top: 2rem;
+    }
+
+    section#rurais .content header a button {
+        margin-top: 3rem;
+        font-size: 1.8rem;
+    }
+}

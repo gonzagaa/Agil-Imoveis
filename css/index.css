@@ -3,7 +3,9 @@
 @import './home.css';
 @import './sectionSobre.css';
 @import './sectionServices.css';
+@import './sectionFlats.css';
 @import './sectionImoveis.css';
+@import './sectionRurais.css';
 @import './sectionContato.css';
 
 @import './authorFooter.css';

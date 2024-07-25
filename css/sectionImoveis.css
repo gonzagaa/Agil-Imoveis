@@ -55,7 +55,9 @@
     transform: translate(-50%, 0);
     width: 90%;
 
-    background-color: #f4f4f4;
+    background-color: #f4f4f4bf;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
     padding: 2rem;
     padding-top: 4rem;
     border-radius: 2rem;
