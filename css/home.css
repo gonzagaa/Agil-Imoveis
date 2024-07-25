@@ -83,7 +83,7 @@
 }
 
 #home .content h1 {
-    margin-top: 5rem;
+    margin-top: 7rem;
     color: #fff;
     font-weight: 300;
     font-size: 2.4rem;
@@ -117,7 +117,7 @@
     border-radius: 1rem;
     border: none;
     padding: 1rem 2rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 
     background: var(--gradient);
     color: var(--white); 
@@ -151,7 +151,7 @@
         z-index: 2;
 
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1.2fr;
         gap: 8rem;
     }
 
@@ -178,6 +178,7 @@
         font-size: 4rem;
         margin-bottom: 2rem;
         line-height: 1.2;
+        margin-top: 0;
     }
 
     header#home .content .text-content p {
@@ -196,6 +197,7 @@
 
     header#home .content .buttons button {
         font-size: 1.8rem;
+        width: initial;
     }
 
     header#home .content .imagebg {
